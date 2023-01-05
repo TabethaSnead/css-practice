@@ -32,4 +32,25 @@ header .logo {
 
 main {
     padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid;
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+}
+
+.left {
+    display: grid;
+    border: 2px solid;
+}
+
+.middle {
+    display: grid;
+    border: 2px solid;
+    grid-template-rows: 10% 90%;
+}
+
+.right {
+    display: grid;
+    border: 2px solid;
 }
