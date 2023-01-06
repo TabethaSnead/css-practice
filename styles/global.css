@@ -32,4 +32,54 @@ header .logo {
 
 main {
     padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+}
+
+.left {
+    display: grid;
+    border: solid 2px black;
+}
+
+.middle {
+    display: grid;
+    border: solid 2px black;
+    grid-template-rows: 10% 90%;
+}
+
+.right {
+    display: grid;
+    border: solid 2px black;
+}
+
+.middle-bottom {
+    /* border: solid 2px black; */
+    display: grid;
+    grid-template-columns: 35% 40% 25%;
+    height: 100%;
+}
+
+.middle-bottom div {
+    border: solid 2px black;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 > div {
+    flex-grow: 1;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 > div {
+    flex-grow: 1;
 }
